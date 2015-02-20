@@ -142,6 +142,46 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{DD25DEE2-A1AF-40DA-A226-E66F4A717B81}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Omega CN9600 Simple Control.exe</Property>
 			</Item>
+			<Item Name="Transfer Setup Unified Control" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{7D6F8F97-940D-47A4-B703-E3DD0E32FE0E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{01FF1AFC-E820-4BC4-8F27-0FB24855D466}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1164DBEC-EBD6-4FC2-997C-9D2617EE6E8C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Transfer Setup Unified Control</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Transfer Setup Unified Control</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A41B2A3D-8DFC-4974-8600-E3F76DEA183A}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Transfer Setup Unified Control.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Transfer Setup Unified Control/Transfer Setup Unified Control.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Transfer Setup Unified Control/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A0AA55F7-A120-4AAE-8476-A733FCDB4F78}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Applications/Transfer Setup Unified Control.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Transfer Setup Unified Control</Property>
+				<Property Name="TgtF_internalName" Type="Str">Transfer Setup Unified Control</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 </Property>
+				<Property Name="TgtF_productName" Type="Str">Transfer Setup Unified Control</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F854A1F9-BA12-443D-BCFB-96F3A571C715}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Transfer Setup Unified Control.exe</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
