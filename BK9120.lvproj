@@ -14,12 +14,13 @@
 			<Item Name="BK9120 Main Panel.vi" Type="VI" URL="../BK9120 Main Panel.vi"/>
 			<Item Name="BK9120 Ramp Control.vi" Type="VI" URL="../BK9120 Ramp Control.vi"/>
 			<Item Name="Meter_VI.ctl" Type="VI" URL="../Meter_VI.ctl"/>
+			<Item Name="Omega CN9600 Simple Control.vi" Type="VI" URL="../Omega CN9600 Simple Control.vi"/>
+			<Item Name="Temperature.ctl" Type="VI" URL="../Omega/Temperature.ctl"/>
 		</Item>
 		<Item Name="B&amp;K Precision 9120 series.lvclass" Type="LVClass" URL="../BK9120/B&amp;K Precision 9120 series.lvclass"/>
 		<Item Name="BK9120 Main Panel.rtm" Type="Document" URL="../BK9120 Main Panel.rtm"/>
 		<Item Name="Global Variables.vi" Type="VI" URL="../global/Global Variables.vi"/>
 		<Item Name="Omega CN9600 series.lvclass" Type="LVClass" URL="../Omega/Omega CN9600 series.lvclass"/>
-		<Item Name="Temperature.ctl" Type="VI" URL="../Omega/Temperature.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -59,6 +60,7 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -109,6 +111,46 @@
 				<Property Name="TgtF_productName" Type="Str">B&amp;K 9120 series Control Software</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C18A70A4-7D56-4EB5-BBFF-F5BC11C1D1A1}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">B&amp;K 9120 series control panel.exe</Property>
+			</Item>
+			<Item Name="Omega CN9600 Simple Control" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{90F890C5-D077-4DF4-B624-9B7A24081714}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{397BE98D-B123-4E85-B3F0-465AEA892462}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A9AF0E1D-6352-4E0B-8473-68D339467619}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Omega CN9600 Simple Control</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Omega CN9600 Simple Control</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{718B095D-8B0A-4490-8745-1FF0EBB19930}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Omega CN9600 Simple Control.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Omega CN9600 Simple Control/Omega CN9600 Simple Control.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Omega CN9600 Simple Control/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5DFDE92D-7857-4270-96CA-605BD4F0AC7E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Applications/Omega CN9600 Simple Control.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Omega CN9600 Simple Control</Property>
+				<Property Name="TgtF_internalName" Type="Str">Omega CN9600 Simple Control</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 </Property>
+				<Property Name="TgtF_productName" Type="Str">Omega CN9600 Simple Control</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{DD25DEE2-A1AF-40DA-A226-E66F4A717B81}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Omega CN9600 Simple Control.exe</Property>
 			</Item>
 		</Item>
 	</Item>
