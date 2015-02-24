@@ -157,7 +157,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A41B2A3D-8DFC-4974-8600-E3F76DEA183A}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Transfer Setup Unified Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Transfer Setup Unified Control/Transfer Setup Unified Control.exe</Property>
