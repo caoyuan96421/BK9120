@@ -20,6 +20,7 @@
 		<Item Name="BK9120 Main Panel.rtm" Type="Document" URL="../BK9120 Main Panel.rtm"/>
 		<Item Name="Global Variables.vi" Type="VI" URL="../global/Global Variables.vi"/>
 		<Item Name="Omega CN9600 series.lvclass" Type="LVClass" URL="../Omega/Omega CN9600 series.lvclass"/>
+		<Item Name="Transfer Setup.ico" Type="Document" URL="../Transfer Setup.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -157,7 +158,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A41B2A3D-8DFC-4974-8600-E3F76DEA183A}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Transfer Setup Unified Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Transfer Setup Unified Control/Transfer Setup Unified Control.exe</Property>
@@ -168,7 +169,8 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Transfer Setup Unified Control/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A0AA55F7-A120-4AAE-8476-A733FCDB4F78}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Transfer Setup.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8A1EDB3E-6BBC-4618-A44E-4CC92369CDA1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Applications/Transfer Setup Unified Control.vi</Property>
