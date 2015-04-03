@@ -12,12 +12,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Applications" Type="Folder">
 			<Item Name="Meter_VI.ctl" Type="VI" URL="../Meter_VI.ctl"/>
-			<Item Name="Omega CN9600 Simple Control.vi" Type="VI" URL="../Omega CN9600 Simple Control.vi"/>
 			<Item Name="Temperature.ctl" Type="VI" URL="../Omega/Temperature.ctl"/>
 			<Item Name="Transfer Setup Unified Control.vi" Type="VI" URL="../Transfer Setup Unified Control.vi"/>
 		</Item>
 		<Item Name="B&amp;K Precision 9120 series.lvclass" Type="LVClass" URL="../BK9120/B&amp;K Precision 9120 series.lvclass"/>
-		<Item Name="BK9120 Main Panel.rtm" Type="Document" URL="../BK9120 Main Panel.rtm"/>
 		<Item Name="Global Variables.vi" Type="VI" URL="../global/Global Variables.vi"/>
 		<Item Name="Omega CN9600 series.lvclass" Type="LVClass" URL="../Omega/Omega CN9600 series.lvclass"/>
 		<Item Name="Transfer Setup.ico" Type="Document" URL="../Transfer Setup.ico"/>
@@ -132,7 +130,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{5DFDE92D-7857-4270-96CA-605BD4F0AC7E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Applications/Omega CN9600 Simple Control.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
