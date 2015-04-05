@@ -11,6 +11,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Applications" Type="Folder">
+			<Item Name="Dialog.vi" Type="VI" URL="../Dialog.vi"/>
+			<Item Name="Message.vi" Type="VI" URL="../Message.vi"/>
 			<Item Name="Meter_VI.ctl" Type="VI" URL="../Meter_VI.ctl"/>
 			<Item Name="Temperature.ctl" Type="VI" URL="../Omega/Temperature.ctl"/>
 			<Item Name="Transfer Setup Unified Control.vi" Type="VI" URL="../Transfer Setup Unified Control.vi"/>
@@ -159,7 +161,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A41B2A3D-8DFC-4974-8600-E3F76DEA183A}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Transfer Setup Unified Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Transfer Setup Unified Control/Transfer Setup Unified Control.exe</Property>
